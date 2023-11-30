@@ -27,7 +27,7 @@ The function should use a for loop and print each invitation after it is generat
 
 def generate_party_invitations(names):
     """
-    prints party invitations for each person in the given list.
+    prints party invitation with the persons name in the email.
 
     """
     for name in names:
@@ -35,7 +35,7 @@ def generate_party_invitations(names):
         print(invitation)
 
 # list of names
-guest_list = ["Mr. O", "Josh", "Charlie"]
+names_list = ["Mr. O", "Josh", "Charlie"]
 
 # Generate and print party invitations using the defined function
-generate_party_invitations(guest_list)
+generate_party_invitations(names_list)
